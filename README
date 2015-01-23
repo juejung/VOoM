@@ -1,3 +1,18 @@
+This is a fork from: https://github.com/vim-scripts/VOoM
+========================================================
+
+I added two things to make it Python3 compliant on a Windows7 machine with
+an Anaconda3 installation of Python 3.4
+ 
+ * Ran 2to3.py on all python files in autoload/voom folder
+ * Replaced all occurences of ``python`` to ``python3`` in autoload/voom.vim
+   file
+
+Voom seems to be working now. Before I got the ``can't find Python 2.7 dll``
+error.
+
+Original readme from https://github.com/vim-scripts/VOoM
+--------------------------------------------------------
 This is a mirror of http://www.vim.org/scripts/script.php?script_id=2657
 
 VOoM (Vim Outliner of Markups) is a plugin for Vim that emulates a two-pane text outliner.
